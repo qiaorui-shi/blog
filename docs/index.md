@@ -35,6 +35,26 @@ import Home from './components/Home.vue'
   font-family: "Comic Sans MS";
 }
 
+html {
+  overflow-y: scroll; /* 始终显示滚动条 */
+  scrollbar-gutter: stable; /* 保持滚动条占位 */
+}
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
