@@ -19,7 +19,7 @@ function createMeteor() {
   const size = Math.random() * 2 + 1;
   const duration = Math.random() * 3 + 1;
   const delay = Math.random() * 5;
-  const left = Math.random() * 100;
+  const left = Math.random() * 110;
   const top = Math.random() * 30;
 
   return {
