@@ -13,10 +13,10 @@ export default {
     nav: [
       { text: "笔记&文档", href: "/favicon.ico", link: "/doc" },
       { text: "工具", link: "/resume" },
-      {
-        text: "链接",
-        items: [{ text: "gitee", link: "https://gitee.com/obsessed-with-summer" }]
-      }
+      // {
+      //   text: "链接",
+      //   items: [{ text: "gitee地址", link: "https://gitee.com/obsessed-with-summer" }]
+      // }
     ],
     sidebar: {
       "/doc/docker": { base: "/doc/docker", items: sidebar("Docker", "docker") },
