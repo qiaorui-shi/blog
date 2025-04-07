@@ -23,6 +23,7 @@ export default {
       "/doc/electron": { base: "/doc/electron", items: sidebar("Electron", "electron") },
       "/doc/hybird": { base: "/doc/hybird", items: sidebar("Hybird", "hybird") },
       "/doc/jenkins": { base: "/doc/jenkins", items: sidebar("Jenkins", "jenkins") },
+      "/doc/mysql": { base: "/doc/mysql", items: sidebar("Mysql", "mysql") },
       "/doc/nestjs": { base: "/doc/nestjs", items: sidebar("Nestjs", "nestjs") },
       "/doc/nginx": { base: "/doc/nginx", items: sidebar("Nginx", "nginx") },
       "/doc/other": { base: "/doc/other", items: sidebar("其它", "other") },

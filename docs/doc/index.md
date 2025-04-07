@@ -5,18 +5,18 @@ title: 大荞
 titleTemplate: 大荞的个人空间
 
 features:
-  - icon: 📝
-    title: vue
-    details: vue笔记
-    link: /doc/vue/01-vue基础.md
+  # - icon: 📝
+  #   title: vue
+  #   details: vue笔记
+  #   link: /doc/vue/01-vue基础.md
   - icon: 📝
     title: hybird混合开发
     details: hybird混合开发
     link: /doc/hybird/01-h5移动端适配.md
-  - icon: 📝
-    title: electron
-    details: electron
-    link: /doc/electron/01-electron基础.md
+  # - icon: 📝
+  #   title: electron
+  #   details: electron
+  #   link: /doc/electron/01-electron基础.md
   - icon: 📝
     title: nginx
     details: nginx
@@ -25,6 +25,10 @@ features:
     title: Jenkins
     details: jenkins笔记
     link: /doc/jenkins/01-jenkins环境搭建.md
+  - icon: 📝
+    title: MySql
+    details: MySql笔记
+    link: /doc/mysql/01-基础.md
   - icon: 📝
     title: nestjs
     details: nestjs笔记
