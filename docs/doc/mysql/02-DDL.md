@@ -46,3 +46,23 @@ CREATE TABLE 表名(
     字段名3 字段类型3[COMMENT 字段3注释]
 )[COMMENT 表注释];
 ```
+5. 修改表
+```sql
+-- 添加列（添加字段）
+ALTER TABLE 表名 ADD COLUMN 字段名 [COMMENT 字段注释];
+-- 修改列（修改字段）
+ALTER TABLE 表明 CHANGE COLUMN 旧字段名 新字段名 [COMMENT 字段注释];
+-- 修改字段类型
+ALTER TABLE 表名 MODIFY COLUMN 字段名 新字段类型 [COMMENT 字段注释];
+```
+6. 删除表
+```sql
+-- 删除表,如果表不存在会报错
+DROP TABLE 表名;
+-- 删除表,如果表不存在不会报错
+DROP TABLE [IF EXISTS] 表名;
+```
+7. 清空表
+```sql
+TRUNCATE TABLE 表名;
+```
