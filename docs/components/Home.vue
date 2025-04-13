@@ -15,19 +15,6 @@ import { onMounted, ref } from "vue";
 // 生成流星数据
 const meteors = ref<any[]>([]);
 
-onMounted(() => {
-  const observer = new MutationObserver(() => {
-    const theme = document.documentElement.getAttribute('data-theme')
-    console.log('当前主题是:', theme) // 'light' 或 'dark'
-    // 你可以根据 theme 做其他逻辑，比如更改图表颜色等
-  })
-
-  observer.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ['data-theme'],
-  })
-})
-
 function createMeteor() {
   const size = Math.random() * 2 + 1;
   const duration = Math.random() * 3 + 1;
