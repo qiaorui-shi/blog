@@ -10,6 +10,9 @@ export default {
   themeConfig: {
     // 主题级选项
     socialLinks: [{ icon: "github", link: "https://github.com/qiaorui-shi" }],
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: "笔记&文档", href: "/favicon.ico", link: "/doc" },
       { text: "工具", link: "/resume" }
