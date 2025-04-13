@@ -5,10 +5,10 @@ title: 大荞
 titleTemplate: 大荞的个人空间
 
 features:
-  # - icon: 📝
-  #   title: vue
-  #   details: vue笔记
-  #   link: /doc/vue/01-vue基础.md
+  - icon: 📝
+    title: vue
+    details: vue笔记
+    link: /doc/vue/01-vue基础.md
   - icon: 📝
     title: hybird混合开发
     details: hybird混合开发
