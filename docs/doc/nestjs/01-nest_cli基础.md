@@ -11,6 +11,11 @@
     npm update -g @nestjs/cli
     ```
 
+3. 构建nest应用
+   ```javascript
+   nest new project-name
+   ```
+
 ## nest generate 创建模板文件
 1. 生成模板代码：
     ```javascript
