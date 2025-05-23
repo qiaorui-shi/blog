@@ -38,6 +38,10 @@ features:
     details: docker笔记
     link: /doc/docker/01-docker基础.md
   - icon: 📝
+    title: python
+    details: python
+    link: /doc/docker/01-pyenv.md
+  - icon: 📝
     title: other
     details: 其它
     link: /doc/other/01-个人静态站点搭建.md 

@@ -30,6 +30,7 @@ export default {
       "/doc/nestjs": { base: "/doc/nestjs", items: sidebar("Nestjs", "nestjs") },
       "/doc/nginx": { base: "/doc/nginx", items: sidebar("Nginx", "nginx") },
       "/doc/other": { base: "/doc/other", items: sidebar("其它", "other") },
+      "/doc/python": { base: "/doc/python", items: sidebar("Python", "python") },
       "/doc/vue": { base: "/doc/vue", items: sidebar("Vue", "vue") }
     },
     footer: {
