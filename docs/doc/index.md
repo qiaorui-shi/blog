@@ -39,7 +39,7 @@ features:
     link: /doc/docker/01-docker基础.md
   - icon: 📝
     title: python
-    details: python
+    details: python笔记
     link: /doc/docker/01-pyenv.md
   - icon: 📝
     title: other
