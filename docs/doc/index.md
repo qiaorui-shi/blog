@@ -40,7 +40,7 @@ features:
   - icon: 📝
     title: python
     details: python笔记
-    link: /doc/docker/01-pyenv.md
+    link: /doc/python/01-环境搭建.md
   - icon: 📝
     title: other
     details: 其它
