@@ -8,7 +8,7 @@ function getMarkdownFiles(dir) {
     .readdirSync(dirPath)
     .filter((file) => file.endsWith(".md")) // 获取所有.md文件
     .map((file) => ({
-      text: file.split("-")[1].replace(".md", ""),
+      text: file.split("-")[1]?.replace(".md", "") || file.replace(".md", ""),
       link: `/${file}`
     }));
 }

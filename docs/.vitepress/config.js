@@ -11,7 +11,7 @@ export default {
     // 主题级选项
     socialLinks: [{ icon: "github", link: "https://github.com/qiaorui-shi" }],
     search: {
-      provider: 'local'
+      provider: "local"
     },
     nav: [
       { text: "笔记&文档", href: "/favicon.ico", link: "/doc" },
@@ -23,15 +23,13 @@ export default {
     ],
     sidebar: {
       "/doc/docker": { base: "/doc/docker", items: sidebar("Docker", "docker") },
-      "/doc/electron": { base: "/doc/electron", items: sidebar("Electron", "electron") },
-      "/doc/hybird": { base: "/doc/hybird", items: sidebar("Hybird", "hybird") },
-      "/doc/jenkins": { base: "/doc/jenkins", items: sidebar("Jenkins", "jenkins") },
       "/doc/mysql": { base: "/doc/mysql", items: sidebar("Mysql", "mysql") },
       "/doc/nestjs": { base: "/doc/nestjs", items: sidebar("Nestjs", "nestjs") },
-      "/doc/nginx": { base: "/doc/nginx", items: sidebar("Nginx", "nginx") },
       "/doc/other": { base: "/doc/other", items: sidebar("其它", "other") },
       "/doc/python": { base: "/doc/python", items: sidebar("Python", "python") },
-      "/doc/vue": { base: "/doc/vue", items: sidebar("Vue", "vue") }
+      "/doc/vue": { base: "/doc/vue", items: sidebar("Vue", "vue") },
+      "/doc/design-mode": { base: "/doc/design-mode", items: sidebar("设计模式", "design-mode") },
+      "/doc/DSA": { base: "/doc/DSA", items: sidebar("数据结构与算法", "DSA") }
     },
     footer: {
       message: "大荞的个人博客",

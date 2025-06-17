@@ -10,22 +10,6 @@ features:
     details: vue笔记
     link: /doc/vue/01-vue基础.md
   - icon: 📝
-    title: hybird混合开发
-    details: hybird混合开发
-    link: /doc/hybird/01-h5移动端适配.md
-  # - icon: 📝
-  #   title: electron
-  #   details: electron
-  #   link: /doc/electron/01-electron基础.md
-  - icon: 📝
-    title: nginx
-    details: nginx
-    link: /doc/nginx/01-linux中安装nginx.md
-  - icon: 📝
-    title: Jenkins
-    details: jenkins笔记
-    link: /doc/jenkins/01-jenkins环境搭建.md
-  - icon: 📝
     title: MySql
     details: MySql笔记
     link: /doc/mysql/01-基础.md
@@ -41,6 +25,14 @@ features:
     title: python
     details: python笔记
     link: /doc/python/01-环境搭建.md
+  - icon: 📝
+    title: 设计模式
+    details: 设计模式笔记
+    link: /doc/design-mode/01-单例模式.md
+  - icon: 📝
+    title: 数据结构与算法
+    details: 数据结构与算法笔记
+    link: /doc/DSA/01-数组.md
   - icon: 📝
     title: other
     details: 其它
