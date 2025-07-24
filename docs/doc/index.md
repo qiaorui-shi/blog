@@ -10,6 +10,14 @@ features:
     details: vue笔记
     link: /doc/vue/01-vue基础.md
   - icon: 📝
+    title: typescript
+    details: typescript笔记
+    link: /doc/typescript/01-ts实用类型.md
+  - icon: 📝
+    title: python
+    details: python笔记
+    link: /doc/python/01-环境搭建.md
+  - icon: 📝
     title: MySql
     details: MySql笔记
     link: /doc/mysql/01-基础.md

@@ -27,6 +27,7 @@ export default {
       "/doc/nestjs": { base: "/doc/nestjs", items: sidebar("Nestjs", "nestjs") },
       "/doc/other": { base: "/doc/other", items: sidebar("其它", "other") },
       "/doc/python": { base: "/doc/python", items: sidebar("Python", "python") },
+      "/doc/typeScrupt": { base: "/doc/typeScrupt", items: sidebar("TypeScript", "typeScript") },
       "/doc/vue": { base: "/doc/vue", items: sidebar("Vue", "vue") },
       "/doc/design-mode": { base: "/doc/design-mode", items: sidebar("设计模式", "design-mode") },
       "/doc/DSA": { base: "/doc/DSA", items: sidebar("数据结构与算法", "DSA") }
