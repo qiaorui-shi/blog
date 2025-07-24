@@ -12,7 +12,7 @@ features:
   - icon: 📝
     title: typescript
     details: typescript笔记
-    link: /doc/typescript/01-ts实用类型.md
+    link: /doc/typeScript/01-ts实用类型.md
   - icon: 📝
     title: python
     details: python笔记
