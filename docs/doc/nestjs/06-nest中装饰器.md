@@ -1,75 +1,21 @@
-# nestjs中所有的装饰器
-## @Module
-声明 Nest 模块
+# nestjs 中装饰器
 
-## @Controller
-声明模块里的 controller
+## 装饰器实现基于 reflect-metadata 库
 
-## @Injectable
-声明模块里可以注入的 provider
+- Reflect Metadata 是 ES7 的一个提案，它主要用来在声明的时候添加和读取元数据。
+- 实际 es 规范中并没有操作元数据的 Api，reflect-metadata 库对 Reflect 对象进行了 api 扩展,使其拥有操作元数据的能力
 
-## @Inject
-通过 token 手动指定注入的 provider，token 可以是 class 或者 string
+## reflect-metadata 扩展的 api
 
-## @Optional
-声明注入的 provider 是可选的，可以为空
-
-## @Global
-声明全局模块
-
-## @Catch
-声明 exception filter 处理的 exception 类型
-
-## @UseFilters
-路由级别使用 exception filter
-
-## @UsePipes
-路由级别使用 pipe
-
-## @UseInterceptors
-路由级别使用 interceptor
-
-## @SetMetadata
-在 class 或者 handler 上添加 metadata
-
-## @Get、@Post、@Put、@Delete、@Patch、@Options、@Head
-声明 get、post、put、delete、patch、options、head 的请求方式
-
-## @Param
-取出 url 中的参数，比如 /aaa/:id 中的 id
-
-## @Query 
-取出 query 部分的参数，比如 /aaa?name=xx 中的 name
-
-## @Body
-取出请求 body，通过 dto class 来接收
-
-## @Headers
-取出某个或全部请求头
-
-## @Session
-取出 session 对象，需要启用 express-session 中间件
-
-## @HostParm
- 取出 host 里的参数
-
-## @Req、@Request
-注入 request 对象
-
-## @Res、@Response
-注入 response 对象，一旦注入了这个 Nest 就不会把返回值作为响应了，除非指定 passthrough 为true
-
-## @Next
-注入调用下一个 handler 的 next 方法
-
-## @HttpCode
- 修改响应的状态码
-
-## @Header
-修改响应头
-
-## @Redirect
-指定重定向的 url
-
-## @Render
-指定渲染用的模版引擎
+```TypeScript
+    // 定义元数据
+    Reflect.defineMetadata(metadataKey, metadataValue, target)
+    // 获取元数据
+    Reflect.getMetadata(metadataKey, target)
+    // 获取所有元数据
+    Reflect.getMetadataKeys(target)
+    // 检查元数据是否存在
+    Reflect.hasMetadata(metadataKey, target)
+    // 删除元数据
+    Reflect.deleteMetadata(metadataKey, target)
+```
